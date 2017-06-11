@@ -3,7 +3,7 @@ html
   head
     meta(charset='utf-8')
     meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
-    title Food Fecommendation
+    title Food Recommendation
 
     link(rel='stylesheet', type='text/css', href='build/build.css')
 
@@ -19,8 +19,8 @@ html
       section#pic1.emphatic-text(data-bespoke-backdrop='emphatic')
         p This is made based on true stories..
         img(src="images/pic1.png")
-        a(href="#st1") Story 1
-        a(href="#st2") Story 2
+        a(href="#st1").round-btn Story 1
+        a(href="#st2").round-btn Story 2
 
       section#st1.emphatic-text(data-bespoke-backdrop='emphatic')
         p Hey Guys!!! Let's go hunting food for dinner together
@@ -102,6 +102,69 @@ html
       section.emphatic-text(data-bespoke-backdrop='emphatic').home
         h3 Because you just need to answer these questions, and you'll get food recommendation..
         img(src="images/c3.gif")
+      
+      section.emphatic-text(data-bespoke-backdrop='emphatic')
+        h3 HOW HUNGRY ARE YOU?
+        h3 ARE YOU REALLY STARVING?
+        input(type='radio' name='starving' value='little' id='little')
+        label(for='little') Just a little
+        input(type='radio' name='starving' value='quite' id='quite')
+        label(for='quite') Quite hungry
+        input(type='radio' name='starving' value='hungry' id='hungry')
+        label(for='hungry') Hungry
+        input(type='radio' name='starving' value='now' id='now')
+        label(for='now') I want to eat Now
+        input(type='radio' name='starving' value='death' id='death')
+        label(for='death') I'm starving to death
+      
+      section.emphatic-text(data-bespoke-backdrop='emphatic')
+        h3 WHAT KIND OF FOOD DO YOU WANT?
+        input(type='radio' name='kind' value='boost' id='boost')
+        label(for='boost') The one can boost your mood
+        input(type='radio' name='kind' value='lemon' id='lemon')
+        label(for='lemon') The one with lemon feels
+        input(type='radio' name='kind' value='plain' id='plain')
+        label(for='plain') Just the plain one
+        input(type='radio' name='kind' value='salty' id='salty')
+        label(for='salty') Salty one not bad
+        input(type='radio' name='kind' value='burnt' id='burnt')
+        label(for='burnt') The one make your tongue burnt
+
+      section.emphatic-text(data-bespoke-backdrop='emphatic')
+       h3 ARE YOU A VEGETARIAN?
+       input(type='radio' name='vege' value='yes' id='yes')
+       label(for='yes')  It's a yes, yes and yes
+       input(type='radio' name='vege' value='eggs' id='eggs')
+       label(for='eggs') Yes, but eggs aren't big deal
+       input(type='radio' name='vege' value='no' id='no')
+       label(for='no') Definitely No
+
+      section.emphatic-text(data-bespoke-backdrop='emphatic')
+       h3 ARE YOU IN A RUSH?
+       input(type='radio' name='rush' value='relax' id='relax')
+       label(for='relax') No, I'm relaxing myself
+       input(type='radio' name='rush' value='works' id='works')
+       label(for='works') Well, I still have works to do
+       input(type='radio' name='rush' value='notime' id='notime')
+       label(for='notime') Yes, I don't have much time
+
+      section.emphatic-text(data-bespoke-backdrop='emphatic')
+        h3 WHAT DO YOU FEEL RIGHT NOW?
+        input(type='radio' name='feel' value='lazy' id='lazy')
+        label(for='lazy') I'm too lazy to go out
+        input(type='radio' name='feel' value='walk' id='walk')
+        label(for='walk') I'd like to go for a walk
+        input(type='radio' name='feel' value='noworry' id='noworry')
+        label(for='noworry') I don't worry about transport
+
+      section.emphatic-text(data-bespoke-backdrop='emphatic')
+       h3 HOW IS YOU WALLET CONDITION?
+       input(type='radio' name='wallet' value='broke' id='broke')
+       label(for='broke') I'm totally broke
+       input(type='radio' name='wallet' value='enough' id='enough')
+       label(for='enough') I guess I have enough
+       input(type='radio' name='wallet' value='card' id='card')
+       label(for='card') Don't worry, I have card
 
       section
         h2 Keyboard Interaction
