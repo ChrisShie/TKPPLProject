@@ -13,7 +13,7 @@ html
       section#front
         h4 Presented by
         h2 LOL (Lots of Love) Group
-        img(src="images/love.gif")
+        img.gif(src="images/love.gif")
 
       section#pic1
         p This is made based on true stories..
@@ -22,13 +22,13 @@ html
         a(href="#st2").round-btn Story 2
 
       section#st1
-        p Hey Guys!!! Let's go hunting food for dinner together
-        img(src="images/p22.png")
-
-      section#st3
-        p Okay, No Problem
-        p So... What should we eat?
-        img(src="images/p23.png")
+        div.st1-1.bullet
+          p Hey Guys!!! Let's go hunting food for dinner together
+          img.bullet(src="images/p22.png")
+        div.st1-2.bullet
+          p Okay, No Problem
+          p So... What should we eat?
+          img(src="images/p23.png")
 
       section#st4
         p Where should we go?
@@ -119,7 +119,7 @@ html
           label(for='death')
             input(type='radio' name='starving' value='death' id='death')
             span  I'm starving to death
-
+        a(href='#22') Next
       
       section(data-bespoke-state='clean cards')
         h3 WHAT KIND OF FOOD DO YOU WANT?
