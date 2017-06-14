@@ -6,10 +6,21 @@
 
 @import 'prism/themes/prism-okaidia.css'
 // Check out "bower_components/prism/themes/" for available themes
-
+.cover {
+    background-position: center;
+    background-size: cover;
+}
+.bespoke-slide
+	width 100%
+	height 100%
+	top 0
+	left 0
+	margin-left 0
+	margin-top 0
 #front
-    background-image url(../images/Back1.jpg)
-    
+	background-image url('../images/Back1.jpg')
+	background-size 100% 100%
+
 #road
     background-image url(../images/back4.png)
 
@@ -67,34 +78,69 @@
 	box-shadow 5px 4px 3px grey
 
 
-#front.emphatic-text
+#front
 	font-family cursive
 
-#front.emphatic-text h2
+#front h2
 	font-size 43px
 	color #0A3975      
 
-#front.emphatic-text h4
+#front h4
 	font-size 20px
 	color #22508C    
 
-#pic1.emphatic-text p
+#pic1 p
 	font-size 21px
 	color #0A3975 
 	font-weight bold
 
-section#road.emphatic-text img 
+section#road img 
 	margin-top 90px
 
-section#st3.emphatic-text img
+section#st3 img
 	margin-top 50px
 
-section#st1.emphatic-text img
+section#st1 img
 	margin-left 45px
 
-section#st1.emphatic-text p
+section#st1 p
 	margin-top 60px
 	
 section#st7 h1
 	font-size 65px
 
+.home h3
+	text-align center
+
+secton>div.choice
+	margin 10% 20px
+
+section>div.choice label
+	display block
+	margin 10px 0
+	
+.bespoke-after
+    transform none
+
+article.clean 
+  transition background-color 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985)
+  background-color #fff
+  font-family georgia
+  color #404040
+  
+article.clean.cards section.bespoke-slide
+  transform-origin 0 100% 0
+  width 60%
+  height 600px
+  margin-top 20px
+  margin-left 20%
+  background yellow
+  
+article.clean.cards section.bespoke-inactive
+  opacity 0
+
+article.clean.cards section.bespoke-before 
+  transform translateZ(0px) rotateY(-60deg) translateX(0px) rotateZ(120deg)
+
+article.clean.cards section.bespoke-after 
+  transform translate3d(0px, 0, 0px)
