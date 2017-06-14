@@ -27,3 +27,19 @@ bespoke.from('article', [
 // This is actually loaded from "bower_components" thanks to
 // debowerify: https://github.com/eugeneware/debowerify
 require('prism');
+
+var ans = [];
+
+function getRadioValue(theRadioName) {
+    var radio = document.getElementsByName(theRadioName);
+    console.log(radio);
+    for (var i = 0; i < radio.length; i++) {
+        radio[i].onclick = function() {
+            if (radio[i].checked) {
+                return radio[i].value;
+            }
+        }
+    }
+}
+ans[0] = getRadioValue("qa-1");
+console.log(ans);
