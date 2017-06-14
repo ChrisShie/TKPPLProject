@@ -105,19 +105,19 @@ html
         h3 ARE YOU REALLY STARVING?
         div.choice
           label(for='little')
-            input(type='radio' name='starving' value='little' id='little') 
+            input(type='radio' name='qa-1' value='1' id='little') 
             span  Just a little
           label(for='quite')
-            input(type='radio' name='starving' value='quite' id='quite')
+            input(type='radio' name='qa-1' value='2' id='quite')
             span  Quite hungry
           label(for='hungry')
-            input(type='radio' name='starving' value='hungry' id='hungry')
+            input(type='radio' name='qa-1' value='3' id='hungry')
             span  Hungry
           label(for='now')
-            input(type='radio' name='starving' value='now' id='now')
+            input(type='radio' name='qa-1' value='4' id='now')
             span  I want to eat Now
           label(for='death')
-            input(type='radio' name='starving' value='death' id='death')
+            input(type='radio' name='qa-1' value='5' id='death')
             span  I'm starving to death
         a(href='#22') Next
       
@@ -125,72 +125,76 @@ html
         h3 WHAT KIND OF FOOD DO YOU WANT?
         div.choice
           label(for='boost')
-            input(type='radio' name='kind' value='boost' id='boost')
+            input(type='radio' name='qa-2' value='1' id='boost')
             span  The one can boost your mood
           label(for='lemon')
-            input(type='radio' name='kind' value='lemon' id='lemon')
+            input(type='radio' name='qa-2' value='2' id='lemon')
             span  The one with lemon feels
           label(for='plain')
-            input(type='radio' name='kind' value='plain' id='plain')
+            input(type='radio' name='qa-2' value='3' id='plain')
             span  Just the plain one
           label(for='salty')
-            input(type='radio' name='kind' value='salty' id='salty')
+            input(type='radio' name='qa-2' value='4' id='salty')
             span  Salty one not bad
           label(for='burnt')
-            input(type='radio' name='kind' value='burnt' id='burnt')
+            input(type='radio' name='qa-2' value='5' id='burnt')
             span  The one make your tongue burnt
 
       section(data-bespoke-state='clean cards')
        h3 ARE YOU A VEGETARIAN?
        div.choice
         label(for='yes')
-          input(type='radio' name='vege' value='yes' id='yes')
+          input(type='radio' name='qa-3' value='1' id='yes')
           span  It's a yes, yes and yes
         label(for='eggs')
-          input(type='radio' name='vege' value='eggs' id='eggs')
+          input(type='radio' name='qa-3' value='2' id='eggs')
           span  Yes, but eggs aren't big deal
         label(for='no')
-          input(type='radio' name='vege' value='no' id='no')
+          input(type='radio' name='qa-3' value='3' id='no')
           span  Definitely No
 
       section(data-bespoke-state='clean cards')
        h3 ARE YOU IN A RUSH?
        div.choice
         label(for='relax')
-          input(type='radio' name='rush' value='relax' id='relax')
+          input(type='radio' name='qa-4' value='1' id='relax')
           span  No, I'm relaxing myself
         label(for='works')
-          input(type='radio' name='rush' value='works' id='works')
+          input(type='radio' name='qa-4' value='2' id='works')
           span  Well, I still have works to do
         label(for='notime')
-          input(type='radio' name='rush' value='notime' id='notime')
+          input(type='radio' name='qa-4' value='3' id='notime')
           span  Yes, I don't have much time
 
       section(data-bespoke-state='clean cards')
         h3 WHAT DO YOU FEEL RIGHT NOW?
         div.choice
           label(for='lazy')
-            input(type='radio' name='feel' value='lazy' id='lazy')
+            input(type='radio' name='qa-5' value='1' id='lazy')
             span  I'm too lazy to go out
           label(for='walk')
-            input(type='radio' name='feel' value='walk' id='walk')
+            input(type='radio' name='qa-5' value='2' id='walk')
             span  I'd like to go for a walk
           label(for='noworry')
-            input(type='radio' name='feel' value='noworry' id='noworry')
+            input(type='radio' name='qa-5' value='3' id='noworry')
             span  I don't worry about transport
 
       section(data-bespoke-state='clean cards')
        h3 HOW IS YOU WALLET CONDITION?
        div.choice
         label(for='broke')
-          input(type='radio' name='wallet' value='broke' id='broke')
+          input(type='radio' name='qa-6' value='1' id='broke')
           span  I'm totally broke
         label(for='enough')
-          input(type='radio' name='wallet' value='enough' id='enough')
+          input(type='radio' name='qa-6' value='2' id='enough')
           span  I guess I have enough
         label(for='card')
-          input(type='radio' name='wallet' value='card' id='card')
+          input(type='radio' name='qa-6' value='3' id='card')
           span  Don't worry, I have card
+      
+      section
+        p Then, here is our recommendation..
+        p#rcmd 
 
       section
         h2 Keyboard Interaction
