@@ -17,7 +17,6 @@ var bespoke = require('bespoke'),
 bespoke.from('article', [
     beach(),
     keys(),
-    click(),
     touch(),
     bullets('h3,li, .bullet'),
     state(),
@@ -26,12 +25,6 @@ bespoke.from('article', [
     hash(),
     progress(),
     forms()
-]);
-bespoke.from('article', [
-    bespoke.plugins.state()
-]);
-bespoke.from('div.choice', [
-    bespoke.plugins.click()
 ]);
 // Prism syntax highlighting
 // This is actually loaded from "bower_components" thanks to
