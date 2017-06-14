@@ -100,9 +100,9 @@ html
         a(href="#qa")
           img(src="images/c3.gif")
     
-      section#qa(data-bespoke-state='clean cards')
-        h3 HOW HUNGRY ARE YOU?
-        h3 ARE YOU REALLY STARVING?
+      section#ques1(data-bespoke-state='clean cards')
+        h1 HOW HUNGRY ARE YOU?
+        h3 ARE YOU REALLY STARVING?</style>
         div.choice
           label(for='little')
             input(type='radio' name='qa-1' value='1' id='little') 
@@ -121,8 +121,8 @@ html
             span  I'm starving to death
         a(href='#22') Next
       
-      section(data-bespoke-state='clean cards')
-        h3 WHAT KIND OF FOOD DO YOU WANT?
+      section#ques2(data-bespoke-state='clean cards')
+        h1 <br/>WHAT KIND OF FOOD DO YOU WANT?<br/>
         div.choice
           label(for='boost')
             input(type='radio' name='qa-2' value='1' id='boost')
@@ -140,8 +140,8 @@ html
             input(type='radio' name='qa-2' value='5' id='burnt')
             span  The one make your tongue burnt
 
-      section(data-bespoke-state='clean cards')
-       h3 ARE YOU A VEGETARIAN?
+      section#ques3(data-bespoke-state='clean cards')
+       h1 ARE YOU A VEGETARIAN?
        div.choice
         label(for='yes')
           input(type='radio' name='qa-3' value='1' id='yes')
@@ -153,8 +153,8 @@ html
           input(type='radio' name='qa-3' value='3' id='no')
           span  Definitely No
 
-      section(data-bespoke-state='clean cards')
-       h3 ARE YOU IN A RUSH?
+      section#ques4(data-bespoke-state='clean cards')
+       h1 ARE YOU IN A RUSH?
        div.choice
         label(for='relax')
           input(type='radio' name='qa-4' value='1' id='relax')
@@ -166,8 +166,8 @@ html
           input(type='radio' name='qa-4' value='3' id='notime')
           span  Yes, I don't have much time
 
-      section(data-bespoke-state='clean cards')
-        h3 WHAT DO YOU FEEL RIGHT NOW?
+      section#ques5(data-bespoke-state='clean cards')
+        h1 WHAT DO YOU FEEL RIGHT NOW?
         div.choice
           label(for='lazy')
             input(type='radio' name='qa-5' value='1' id='lazy')
@@ -179,8 +179,8 @@ html
             input(type='radio' name='qa-5' value='3' id='noworry')
             span  I don't worry about transport
 
-      section(data-bespoke-state='clean cards')
-       h3 HOW IS YOU WALLET CONDITION?
+      section#ques6(data-bespoke-state='clean cards')
+       h1 <br/>HOW IS YOU WALLET CONDITION?
        div.choice
         label(for='broke')
           input(type='radio' name='qa-6' value='1' id='broke')
@@ -192,8 +192,8 @@ html
           input(type='radio' name='qa-6' value='3' id='card')
           span  Don't worry, I have card
       
-      section
-        p Then, here is our recommendation..
+      section#end
+        h1 Then, here is our recommendation..
         p#rcmd 
 
       section
