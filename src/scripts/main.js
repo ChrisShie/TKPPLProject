@@ -33,16 +33,34 @@ require('prism');
 
 var ans = [];
 
-function getRadioValue(theRadioName) {
-    var radio = document.getElementsByName(theRadioName);
-    console.log(radio);
+// function getRadioValue(theRadioName) {
+//     var radio = document.getElementsByName(theRadioName);
+//     console.log(radio);
+//     for (var i = 0; i < radio.length; i++) {
+//         console.log(radio[i]);
+//         radio[i].onclick = function() {
+//             if (radio[i].checked) {
+//                 return this.value;
+//             }
+//         }
+//     }
+// }
+function getRadioValue(radioName, ind) {
+    var radio = document.getElementsByName(radioName);
     for (var i = 0; i < radio.length; i++) {
         radio[i].onclick = function() {
-            if (radio[i].checked) {
-                return radio[i].value;
-            }
+            ans[ind] = this.value;
+            console.log(ans);
         }
     }
 }
-ans[0] = getRadioValue("qa-1");
-console.log(ans);
+getRadioValue("qa-1", 0);
+getRadioValue("qa-2", 1);
+getRadioValue("qa-3", 2);
+getRadioValue("qa-4", 3);
+getRadioValue("qa-5", 4);
+getRadioValue("qa-6", 5);
+var myAns = "";
+for (var i = 0; i < 6; i++) {
+    myAns += ans[i];
+}
