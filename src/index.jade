@@ -120,7 +120,7 @@ html
         a(href='#21') Next
       
       section#ques2(data-bespoke-state='clean cards')
-        h1 <br/>WHAT KIND OF FOOD DO YOU WANT?<br/>
+        h1 <br/>WHAT KIND OF FOOD DO YOU WANT?<br/><br/>
         div.choice
           label(for='boost')
             input(type='radio' name='qa-2' value='1' id='boost')
@@ -139,8 +139,8 @@ html
             span  The one make your tongue burnt
         a(href='#22') Next
 
-      section(data-bespoke-state='clean cards')
-        h3 ARE YOU A VEGETARIAN?
+      section#ques3(data-bespoke-state='clean cards')
+        h1 ARE YOU A VEGETARIAN?
         div.choice
           label(for='yes')
             input(type='radio' name='qa-3' value='1' id='yes')
@@ -153,8 +153,8 @@ html
             span  Definitely No
         a(href='#23') Next
 
-      section(data-bespoke-state='clean cards')
-        h3 ARE YOU IN A RUSH?
+      section#ques4(data-bespoke-state='clean cards')
+        h1 ARE YOU IN A RUSH?
         div.choice
           label(for='relax')
             input(type='radio' name='qa-4' value='1' id='relax')
@@ -181,8 +181,8 @@ html
             span  I don't worry about transport
         a(href='#25') Next
 
-      section(data-bespoke-state='clean cards')
-        h3 HOW IS YOU WALLET CONDITION?
+      section#ques6(data-bespoke-state='clean cards')
+        h1 HOW IS YOU WALLET CONDITION?
         div.choice
           label(for='broke')
             input(type='radio' name='qa-6' value='1' id='broke')
@@ -195,62 +195,8 @@ html
             span  Don't worry, I have card
         a(href='#26') You've finished answering
       
-      section
-        p Then, here is our recommendation..
-        p#rcmd Here
+      section#end
+        h1 Then, here is our recommendation..
+        h2rcmd Here
 
-      section
-        h2 Keyboard Interaction
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-keys">bespoke-keys</a>
-
-      section
-        h2 Touch Interaction
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-touch">bespoke-touch</a>
-
-      section
-        h2 Responsive Slides
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-scale">bespoke-scale</a>
-
-      section
-        h2 Bullet List
-        h3.bullet Powered by <a href="https://github.com/markdalgleish/bespoke-bullets">bespoke-bullets</a>
-        ul
-          li Bullet 1
-          li Bullet 2
-          li Bullet 3
-
-      section
-        h2 Syntax Highlighting
-        h3 Powered by <a href="http://twitter.com/LeaVerou">Lea Verou</a>'s <a href="https://github.com/LeaVerou/prism">Prism</a>
-        pre
-          code.language-javascript.
-            bespoke.from('article', [
-              classes(),
-              keys(),
-              touch(),
-              bullets('li, .bullet')
-            ]);
-
-      section(data-bespoke-hash='named-route')
-        h2 Named Route
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-hash">bespoke-hash</a>
-        p Look up! This route has been named with a <em>'data-bespoke-hash'</em> attribute.
-
-      section.emphatic-text(data-bespoke-backdrop='emphatic')
-        h2 Emphatic Slide!
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-backdrop">bespoke-backdrop</a>
-
-      section
-        h2.bullet Just the beginning...
-        br
-        ul
-          li Edit <a href="http://jade-lang.com/">Jade</a> markup in <em>'src/index.jade'</em>
-          li Edit <a href="http://learnboost.github.io/stylus/">Stylus</a> styles in <em>'src/styles/main.styl'</em>
-          li Edit JavaScript in <em>'src/scripts/main.js'</em>
-        br
-        ul
-          li
-            strong Enjoy! :)
-            a(href='http://twitter.com/markdalgleish')  -@markdalgleish
-
-    script(src='build/build.js')
+      script(src='build/build.js')
