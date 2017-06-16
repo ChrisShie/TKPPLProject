@@ -11,35 +11,35 @@ html
     article
 
       section#front
-        h4 Presented by
-        h2 LOL (Lots of Love) Group
+        h3 Presented by
+        h1 LOL (Lots of Love) Group
         img.gif(src="images/love.gif")
 
       section#pic1
-        p This is made based on true stories..
+        h3 This is made based on true stories..
         img(src="images/pic1.png")
-        a(href="#st1" style="text-decoration:none;").round-btn Story 1
-        a(href="#st2" style="text-decoration:none;").round-btn Story 2
+        a(href="#st1").round-btn Story 1
+        a(href="#st2").round-btn Story 2
 
       section#st1
         div.st1-1.bullet
-          p.bullet Hey Guys!!! Let's go hunting food for dinner together
+          h3.bullet Hey Guys!!! Let's go hunting food for dinner together
           img(src="images/p22.png")
         div.st1-2.bullet
-          p.bullet Okay, No Problem
-          p.bullet So... What should we eat?
+          h3.bullet Okay, No Problem
+          h3.bullet So... What should we eat?
           img(src="images/p23.png")
 
       section#st4
-        p Where should we go?
+        h3 Where should we go?
         img(src="images/p24.png")
 
       section#st6
-        p Ummmmm... Ummmm.... Ummmmm..
+        h3 Ummmmm... Ummmm.... Ummmmm..
         img(src="images/p25.png")
 
       section#st5
-        p The simplest and the most difficult question to answer
+        h3 The simplest and the most difficult question to answer
         img(src="images/thinking.png")
 
       section#st7
@@ -67,11 +67,12 @@ html
         h3 On the other side..
         img(src="images/c7.gif")  
 
-      section.home
-        h3 Knock Knock Knock
+      section#door.home
+        h3 Knock.. knock.. knock
         img(src="images/door.png")  
 
       section.home
+        h3 Happy to see her but..
         img(src="images/c6.gif") 
 
       section.home
@@ -106,7 +107,6 @@ html
     
       section#ques1(data-bespoke-state='clean cards')
         h1 HOW HUNGRY ARE YOU?
-        h3 ARE YOU REALLY STARVING?</style>
         div.choice
           label(for='little')
             input(type='radio' name='qa-1' value='1' id='little') 
@@ -117,10 +117,10 @@ html
           label(for='death')
             input(type='radio' name='qa-1' value='3' id='death')
             span  I'm starving to death
-        a(href='#21') Next
+        a(href='#21').next Next
       
       section#ques2(data-bespoke-state='clean cards')
-        h1 <br/>WHAT KIND OF FOOD DO YOU WANT?<br/><br/>
+        h1 WHAT KIND OF FOOD DO YOU WANT?
         div.choice
           label(for='boost')
             input(type='radio' name='qa-2' value='1' id='boost')
@@ -137,7 +137,7 @@ html
           label(for='burnt')
             input(type='radio' name='qa-2' value='5' id='burnt')
             span  The one make your tongue burnt
-        a(href='#22') Next
+        a(href='#22').next Next
 
       section#ques3(data-bespoke-state='clean cards')
         h1 ARE YOU A VEGETARIAN?
@@ -151,7 +151,7 @@ html
           label(for='no')
             input(type='radio' name='qa-3' value='3' id='no')
             span  Definitely No
-        a(href='#23') Next
+        a(href='#23').next Next
 
       section#ques4(data-bespoke-state='clean cards')
         h1 ARE YOU IN A RUSH?
@@ -165,7 +165,7 @@ html
           label(for='notime')
             input(type='radio' name='qa-4' value='3' id='notime')
             span  Yes, I don't have much time
-        a(href='#24') Next
+        a(href='#24').next Next
 
       section#ques5(data-bespoke-state='clean cards')
         h1 WHAT DO YOU FEEL RIGHT NOW?
@@ -179,7 +179,7 @@ html
           label(for='noworry')
             input(type='radio' name='qa-5' value='3' id='noworry')
             span  I don't worry about transport
-        a(href='#25') Next
+        a(href='#25').next Next
 
       section#ques6(data-bespoke-state='clean cards')
         h1 HOW IS YOU WALLET CONDITION?
@@ -193,10 +193,14 @@ html
           label(for='card')
             input(type='radio' name='qa-6' value='3' id='card')
             span  Don't worry, I have card
-        a(href='#26') You've finished answering
+        a(href='#26').next You've finished answering
       
       section#end
-        h1 Then, here is our recommendation..
-        h2rcmd Here
+        h2 Then, here is our recommendation..
+        h3#rcmd Here
+      
+      section#end2
+        h2 Thankyou for your attention..
+        img(src="images/clap.gif")
 
       script(src='build/build.js')
