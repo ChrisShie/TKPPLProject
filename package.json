@@ -9,6 +9,7 @@
     "bespoke-theme-beachday": "^1.1.0",
     "bespoke-theme-fancy": "^0.6.0",
     "bespoke-theme-sea": "^0.3.1",
+    "bespoke-touch": "^1.0.0",
     "grunt-contrib-jade": "^1.0.0"
   },
   "devDependencies": {
