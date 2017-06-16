@@ -147,27 +147,139 @@ function getRadioValue(radioName, ind) {
             } else if (hasil === '143123' || hasil === '143132' || hasil === '143133' || hasil === '143223') {
                 document.getElementById("rcmd").innerHTML = "You can go to have fried snacks at a cafe/restaurant.";
             } else if (hasil === '151111' || hasil === '151112' || hasil === '151113' || hasil === '151211' || hasil === '151212') {
-                document.getElementById("rcmd").innerHTML = "You can have some snacks at your house/workplace.";
-            } else if (hasil === '151121' || hasil === '151221' || hasil === '152122' || hasil === '153121' || hasil === '153131' || hasil === '153231' || hasil === '153331') {
-                document.getElementById("rcmd").innerHTML = "You can go to buy snacks at the grocery store/minimart near your house/workplace.";
+                document.getElementById("rcmd").innerHTML = "You can have some spicy snacks at your house/workplace.";
+            } else if (hasil === '151121' || hasil === '151221' || hasil === '152122' || hasil === '153121' || hasil === '153131' || hasil === '153231' || hasil === '153321' || hasil === '153331') {
+                document.getElementById("rcmd").innerHTML = "You can go to buy spicy snacks at the grocery store near your house/workplace.";
             } else if (hasil === '151122' || hasil === '151222' || hasil === '151332' || hasil === '152123' || hasil === '152222' || hasil === '152322' || hasil === '152332' || hasil === '153122' || hasil === '153222' || hasil === '153232') {
-                document.getElementById("rcmd").innerHTML = "You can go to buy potato/cassava chip at the grocery store/minimart near your house/workplace.";
-            } else if (hasil === '151123' || hasil === '151223' || hasil === '152223' || hasil === '152323' || hasil === '153321' || hasil === '153332') {
-                document.getElementById("rcmd").innerHTML = "You can go to the nearest restaurant to have frenchfries/fried cassava/other snacks.";
+                document.getElementById("rcmd").innerHTML = "You can go to buy spicy potato/cassava chip at the minimart near your house/workplace.";
+            } else if (hasil === '151123' || hasil === '151223' || hasil === '152223' || hasil === '152323' || hasil === '153332') {
+                document.getElementById("rcmd").innerHTML = "You can go to the nearest restaurant to have snacks with spicy seasonings.";
             } else if (hasil === '151131' || hasil === '151221' || hasil === '151231' || hasil === '151331') {
-                document.getElementById("rcmd").innerHTML = "You can go to buy snacks at the grocery store near your house/workplace.";
+                document.getElementById("rcmd").innerHTML = "You can go to buy spicy snacks at the grocery store near your house/workplace.";
             } else if (hasil === '151132' || hasil === '151133' || hasil === '151232' || hasil === '151233') {
-                document.getElementById("rcmd").innerHTML = "You can go to have some fried snacks at a restaurant";
+                document.getElementById("rcmd").innerHTML = "You can go to have snacks with spicy seasonings at a restaurant.";
             } else if (hasil === '151213' || hasil === '151333' || hasil === '152113' || hasil === '152213' || hasil === '152313' || hasil === '153113' || hasil === '153213' || hasil === '153312' || hasil === '153313') {
-                document.getElementById("rcmd").innerHTML = "You can ask for french fries delivery";
+                document.getElementById("rcmd").innerHTML = "You can ask for spicy snacks delivery,how about french fries or mushrooms?";
             } else if (hasil === '152111' || hasil === '152112' || hasil === '152121' || hasil === '152211' || hasil === '152212' || hasil === '152221' || hasil === '153111' || hasil === '153112' || hasil === '153211' || hasil === '153212' || hasil === '153221') {
-                document.getElementById("rcmd").innerHTML = "You can cook french fries yourself or just eat snacks you have";
+                document.getElementById("rcmd").innerHTML = "You can cook home-made fries with sauce topping or just eat spicy snacks you have.";
             } else if (hasil === '152311' || hasil === '152312' || hasil === '152321' || hasil === '152331' || hasil === '153311') {
-                document.getElementById("rcmd").innerHTML = "You can cook home-made fries or just eat snacks you have.";
+                document.getElementById("rcmd").innerHTML = "You can cook home-made fries with sauce topping or just eat spicy snacks you have.";
             } else if (hasil === '152333' || hasil === '153233' || hasil === '153322' || hasil === '153323' || hasil === '153333') {
-                document.getElementById("rcmd").innerHTML = "You can go to the nearest restaurant/cafe to buy a take away fries.";
+                document.getElementById("rcmd").innerHTML = "You can go to the nearest restaurant/cafe to buy a take away spicy fries.";
             } else if (hasil === '153123' || hasil === '153132' || hasil === '153133' || hasil === '153223') {
-                document.getElementById("rcmd").innerHTML = "You can go to have fried snacks at a cafe/restaurant.";
+                document.getElementById("rcmd").innerHTML = "You can go to have spicy snacks at a cafe/restaurant.";
+            } else if (hasil === '311111' || hasil === '311112' || hasil === '311113' || hasil === '311211' || hasil === '311212') {
+                document.getElementById("rcmd").innerHTML = "You can cook sweet green bean porridge,it's cheap and not difficult to cook.";
+            } else if (hasil === '311121' || hasil === '311221' || hasil === '312122' || hasil === '313121' || hasil === '313321' || hasil === '313131' || hasil === '313231' || hasil === '313331') {
+                document.getElementById("rcmd").innerHTML = "You can go to buy sweet green bean porridge/kolak from the restaurants nearby.";
+            } else if (hasil === '311122' || hasil === '311222' || hasil === '311332' || hasil === '312123' || hasil === '312222' || hasil === '312322' || hasil === '312332' || hasil === '313122' || hasil === '313222' || hasil === '313232') {
+                document.getElementById("rcmd").innerHTML = "You can go to have black bean noodles/pansit noodles at a restaurant.";
+            } else if (hasil === '311123' || hasil === '311223' || hasil === '312223' || hasil === '312323'  || hasil === '313332') {
+                document.getElementById("rcmd").innerHTML = "You can go to have black bean noodles/pansit noodles at a restaurant.";
+            } else if (hasil === '311131' || hasil === '311221' || hasil === '311231' || hasil === '311331') {
+                document.getElementById("rcmd").innerHTML = "You better cook your own green bean porridge/pancake/waffle.";
+            } else if (hasil === '311132' || hasil === '311133' || hasil === '311232' || hasil === '311233') {
+                document.getElementById("rcmd").innerHTML = "You can go to have black bean noodles/pansit noodles/rice with soy sauce chicken at a restaurant.";
+            } else if (hasil === '311213' || hasil === '311333' || hasil === '312113' || hasil === '312213' || hasil === '312313' || hasil === '313113' || hasil === '313213' || hasil === '313312' || hasil === '313313') {
+                document.getElementById("rcmd").innerHTML = "You can ask for black bean noodles delivery?";
+            } else if (hasil === '312111' || hasil === '312112' || hasil === '312121' || hasil === '312211' || hasil === '312212' || hasil === '312221' || hasil === '313111' || hasil === '313112' || hasil === '313211' || hasil === '313212' || hasil === '313221') {
+                document.getElementById("rcmd").innerHTML = "You can cook your own sweet green bean porridge/porridge with carrot and potato.";
+            } else if (hasil === '312311' || hasil === '312312' || hasil === '312321' || hasil === '312331' || hasil === '313311') {
+                document.getElementById("rcmd").innerHTML = "You can cook your own sweet green bean porridge/porridge with carrot and potato.";
+            } else if (hasil === '312333' || hasil === '313233' || hasil === '313322' || hasil === '313323' || hasil === '313333') {
+                document.getElementById("rcmd").innerHTML = "You can go to the nearest restaurant to buy a take away black bean noodles/rice with soy sauce chicken.";
+            } else if (hasil === '313123' || hasil === '313132' || hasil === '313133' || hasil === '313223') {
+                document.getElementById("rcmd").innerHTML = "You can go to have black bean noodles/pansit noodles at a restaurant";
+            } else if (hasil === '321111' || hasil === '321112' || hasil === '321113' || hasil === '321211' || hasil === '321212') {
+                document.getElementById("rcmd").innerHTML = "It's better not to eat sour food when you are really hungry.";
+            } else if (hasil === '321121' || hasil === '321221' || hasil === '322122' || hasil === '323121' || hasil === '323131' || hasil === '323231' || hasil === '323331') {
+                document.getElementById("rcmd").innerHTML = "It's better not to eat sour food when you are really hungry.";
+            } else if (hasil === '321122' || hasil === '321222' || hasil === '321332' || hasil === '322123' || hasil === '322222' || hasil === '322322' || hasil === '322332' || hasil === '323122' || hasil === '323222' || hasil === '323232') {
+                document.getElementById("rcmd").innerHTML = "It's better not to eat sour food when you are really hungry.";
+            } else if (hasil === '321123' || hasil === '321223' || hasil === '322223' || hasil === '322323' || hasil === '323321' || hasil === '323332') {
+                document.getElementById("rcmd").innerHTML = "It's better not to eat sour food when you are really hungry.";
+            } else if (hasil === '321131' || hasil === '321221' || hasil === '321231' || hasil === '321331') {
+                document.getElementById("rcmd").innerHTML = "It's better not to eat sour food when you are really hungry.";
+            } else if (hasil === '321132' || hasil === '321133' || hasil === '321232' || hasil === '321233') {
+                document.getElementById("rcmd").innerHTML = "It's better not to eat sour food when you are really hungry.";
+            } else if (hasil === '321213' || hasil === '321333' || hasil === '322113' || hasil === '322213' || hasil === '322313' || hasil === '323113' || hasil === '323213' || hasil === '323312' || hasil === '323313') {
+                document.getElementById("rcmd").innerHTML = "It's better not to eat sour food when you are really hungry.";
+            } else if (hasil === '322111' || hasil === '322112' || hasil === '322121' || hasil === '322211' || hasil === '322212' || hasil === '322221' || hasil === '323111' || hasil === '323112' || hasil === '323211' || hasil === '323212' || hasil === '323221') {
+                document.getElementById("rcmd").innerHTML = "It's better not to eat sour food when you are really hungry.";
+            } else if (hasil === '322311' || hasil === '322312' || hasil === '322321' || hasil === '322331' || hasil === '323311') {
+                document.getElementById("rcmd").innerHTML = "It's better not to eat sour food when you are really hungry.";
+            } else if (hasil === '322333' || hasil === '323233' || hasil === '323322' || hasil === '323323' || hasil === '323333') {
+                document.getElementById("rcmd").innerHTML = "It's better not to eat sour food when you are really hungry.";
+            } else if (hasil === '323123' || hasil === '323132' || hasil === '323133' || hasil === '323223') {
+                document.getElementById("rcmd").innerHTML = "It's better not to eat sour food when you are really hungry.";
+            } else if (hasil === '331111' || hasil === '331112' || hasil === '331113' || hasil === '331211' || hasil === '331212') {
+                document.getElementById("rcmd").innerHTML = "You can cook porridge with vegetables/vegetable soup with rice.";
+            } else if (hasil === '331121' || hasil === '331221' || hasil === '332122' || hasil === '333121' || hasil === '333131' || hasil === '333231' || hasil === '333331') {
+                document.getElementById("rcmd").innerHTML = "You can cook porridge with vegetables/vegetable soup with rice.";
+            } else if (hasil === '331122' || hasil === '331222' || hasil === '331332' || hasil === '332123' || hasil === '332222' || hasil === '332322' || hasil === '332332' || hasil === '333122' || hasil === '333222' || hasil === '333232') {
+                document.getElementById("rcmd").innerHTML = "You can go to have some porridge/vegetable soup+rice at the nearby restaurant.";
+            } else if (hasil === '331123' || hasil === '331223' || hasil === '332223' || hasil === '332323' || hasil === '333321' || hasil === '333332') {
+                document.getElementById("rcmd").innerHTML = "You can go to have some porridge/vegetable soup+rice/steamed fish at a restaurant.";
+            } else if (hasil === '331131' || hasil === '331221' || hasil === '331231' || hasil === '331331') {
+                document.getElementById("rcmd").innerHTML = "You can go to buy the ingredients to cook porridge/vegetable soup.";
+            } else if (hasil === '331132' || hasil === '331133' || hasil === '331232' || hasil === '331233') {
+                document.getElementById("rcmd").innerHTML = "You can go to have steamed dimsum + vegetable salad/soup/porridge/steamed fish at a restaurant";
+            } else if (hasil === '331213' || hasil === '331333' || hasil === '332113' || hasil === '332213' || hasil === '332313' || hasil === '333113' || hasil === '333213' || hasil === '333312' || hasil === '333313') {
+                document.getElementById("rcmd").innerHTML = "You can ask for porridge/vegetable soup delivery";
+            } else if (hasil === '332111' || hasil === '332112' || hasil === '332121' || hasil === '332211' || hasil === '332212' || hasil === '332221' || hasil === '333111' || hasil === '333112' || hasil === '333211' || hasil === '333212' || hasil === '333221') {
+                document.getElementById("rcmd").innerHTML = "You can go to buy the ingredients to cook porridge/vegetable soup.";
+            } else if (hasil === '332311' || hasil === '332312' || hasil === '332321' || hasil === '332331' || hasil === '333311') {
+                document.getElementById("rcmd").innerHTML = "You can go to buy the ingredients to cook porridge/vegetable soup.";
+            } else if (hasil === '332333' || hasil === '333233' || hasil === '333322' || hasil === '333323' || hasil === '333333') {
+                document.getElementById("rcmd").innerHTML = "You can go to the nearest restaurant to buy a take away porridge/vegetable soup.";
+            } else if (hasil === '333123' || hasil === '333132' || hasil === '333133' || hasil === '333223') {
+                document.getElementById("rcmd").innerHTML = "You can go to have steamed dimsum + vegetable salad/soup/porridge/steamed fish at a restaurant.";
+            } else if (hasil === '341111' || hasil === '341112' || hasil === '341113' || hasil === '341211' || hasil === '341212') {
+                document.getElementById("rcmd").innerHTML = "You can make some french fries/butter fried rice on your own.";
+            } else if (hasil === '341121' || hasil === '341221' || hasil === '342122' || hasil === '343121' || hasil === '343131' || hasil === '343231' || hasil === '343331') {
+                document.getElementById("rcmd").innerHTML = "You can make some french fries/butter fried rice on your own.";
+            } else if (hasil === '341122' || hasil === '341222' || hasil === '341332' || hasil === '342123' || hasil === '342222' || hasil === '342322' || hasil === '342332' || hasil === '343122' || hasil === '343222' || hasil === '343232') {
+                document.getElementById("rcmd").innerHTML = "You can go to buy butter fried rice/ayam penyet/fried noodles from the restaurant nearby.";
+            } else if (hasil === '341123' || hasil === '341223' || hasil === '342223' || hasil === '342323' || hasil === '343321' || hasil === '343332') {
+                document.getElementById("rcmd").innerHTML = "You can go to the nearest restaurant to have teri fried rice/ayam penyet/butter coated tempura/etc.";
+            } else if (hasil === '341131' || hasil === '341221' || hasil === '341231' || hasil === '341331') {
+                document.getElementById("rcmd").innerHTML = "You can make some french fries/fried rice on your own.";
+            } else if (hasil === '341132' || hasil === '341133' || hasil === '341232' || hasil === '341233') {
+                document.getElementById("rcmd").innerHTML = "You can go to the nearest restaurant to have teri fried rice/ayam penyet/butter coated tempura/etc.";
+            } else if (hasil === '341213' || hasil === '341333' || hasil === '342113' || hasil === '342213' || hasil === '342313' || hasil === '343113' || hasil === '343213' || hasil === '343312' || hasil === '343313') {
+                document.getElementById("rcmd").innerHTML = "You can ask for french fries/butter fried rice/etc delivery";
+            } else if (hasil === '342111' || hasil === '342112' || hasil === '342121' || hasil === '342211' || hasil === '342212' || hasil === '342221' || hasil === '343111' || hasil === '343112' || hasil === '343211' || hasil === '343212' || hasil === '343221') {
+                document.getElementById("rcmd").innerHTML = "You can go to the nearest restaurant to have teri fried rice/ayam penyet/butter coated tempura/etc.";
+            } else if (hasil === '342311' || hasil === '342312' || hasil === '342321' || hasil === '342331' || hasil === '343311') {
+                document.getElementById("rcmd").innerHTML = "You can make some french fries/butter fried rice on your own.";
+            } else if (hasil === '342333' || hasil === '343233' || hasil === '343322' || hasil === '343323' || hasil === '343333') {
+                document.getElementById("rcmd").innerHTML = "You can go to the nearest restaurant/cafe to buy a take away butter fried rice/other fried stuffs.";
+            } else if (hasil === '343123' || hasil === '343132' || hasil === '343133' || hasil === '343223') {
+                document.getElementById("rcmd").innerHTML = "You can go to the nearest restaurant to have teri fried rice/ayam penyet/butter coated tempura/etc.";
+            } else if (hasil === '351111' || hasil === '351112' || hasil === '351113' || hasil === '351211' || hasil === '351212') {
+                document.getElementById("rcmd").innerHTML = "Don't eat spicy foods when you are really hungry. It's bad for health.";
+            } else if (hasil === '351121' || hasil === '351221' || hasil === '352122' || hasil === '353121' || hasil === '353131' || hasil === '353231' || hasil === '353321' || hasil === '353331') {
+                document.getElementById("rcmd").innerHTML = "Don't eat spicy foods when you are really hungry. It's bad for health.";
+            } else if (hasil === '351122' || hasil === '351222' || hasil === '351332' || hasil === '352123' || hasil === '352222' || hasil === '352322' || hasil === '352332' || hasil === '353122' || hasil === '353222' || hasil === '353232') {
+                document.getElementById("rcmd").innerHTML = "Don't eat spicy foods when you are really hungry. It's bad for health.";
+            } else if (hasil === '351123' || hasil === '351223' || hasil === '352223' || hasil === '352323' || hasil === '353332') {
+                document.getElementById("rcmd").innerHTML = "Don't eat spicy foods when you are really hungry. It's bad for health.";
+            } else if (hasil === '351131' || hasil === '351221' || hasil === '351231' || hasil === '351331') {
+                document.getElementById("rcmd").innerHTML = "Don't eat spicy foods when you are really hungry. It's bad for health.";
+            } else if (hasil === '351132' || hasil === '351133' || hasil === '351232' || hasil === '351233') {
+                document.getElementById("rcmd").innerHTML = "Don't eat spicy foods when you are really hungry. It's bad for health.";
+            } else if (hasil === '351213' || hasil === '351333' || hasil === '352113' || hasil === '352213' || hasil === '352313' || hasil === '353113' || hasil === '353213' || hasil === '353312' || hasil === '353313') {
+                document.getElementById("rcmd").innerHTML = "Don't eat spicy foods when you are really hungry. It's bad for health.";
+            } else if (hasil === '352111' || hasil === '352112' || hasil === '352121' || hasil === '352211' || hasil === '352212' || hasil === '352221' || hasil === '353111' || hasil === '353112' || hasil === '353211' || hasil === '353212' || hasil === '353221') {
+                document.getElementById("rcmd").innerHTML = "Don't eat spicy foods when you are really hungry. It's bad for health.";
+            } else if (hasil === '352311' || hasil === '352312' || hasil === '352321' || hasil === '352331' || hasil === '353311') {
+                document.getElementById("rcmd").innerHTML = "Don't eat spicy foods when you are really hungry. It's bad for health.";
+            } else if (hasil === '352333' || hasil === '353233' || hasil === '353322' || hasil === '353323' || hasil === '353333') {
+                document.getElementById("rcmd").innerHTML = "Don't eat spicy foods when you are really hungry. It's bad for health.";
+            } else if (hasil === '353123' || hasil === '353132' || hasil === '353133' || hasil === '353223') {
+                document.getElementById("rcmd").innerHTML = "Don't eat spicy foods when you are really hungry. It's bad for health.";
+            } else {
+                document.getElementById("rcmd").innerHTML = "We have no idea what to recommend you, sorry";
             }
         }
     }
